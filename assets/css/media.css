@@ -1,0 +1,70 @@
+@media (max-width: 850px) and (min-width: 1px){
+	body{
+		font-family: 'Raleway';
+		font-weight: 400;
+	}
+	#responsive{
+		background-color: #16a085;
+		padding: 20px;
+		width: 100%;
+		text-decoration: none;
+		font-weight: 400;
+		font-size: 18px;
+		color: #fff;
+	}
+	#responsive i{
+		margin-right: 20px;
+	}
+	.menu{
+		flex-direction: column;
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+	.menu ul li{
+		background-color: #1abc9c;
+		padding: 20px;
+		border-bottom: 1px solid white;
+		cursor: pointer;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		cursor: pointer;
+	}
+	.menu ul li:hover{
+		background-color:  #16a085;
+	}
+	.show{
+		display: none;
+	}
+}
+
+@media (min-width: 851px){
+	#responsive{
+		display: none;
+	}
+	.menu, .menu ul, .menu ul li{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.menu ul{
+		background-color: #1abc9c;
+		justify-content: center;
+
+	}
+	.menu ul li{
+		padding: 20px 40px;
+		border-right: 1px solid white;
+		background-color: #1abc9c;
+		cursor: pointer;
+	}
+	.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+		text-align: center;
+	}
+	.menu ul li:hover{
+		background-color: #16a085;
+	}
+}
